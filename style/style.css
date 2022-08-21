@@ -1,0 +1,93 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.3%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: rgb(11, 11, 11);
+}
+
+.tittle-pokemon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #f0f8ff;
+}
+
+.button-pokemon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #f0f8ff;
+}
+
+.pok1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(./wallpaper-pok.jpg);
+}
+.pok1-img {
+  width: 200px;
+  height: 200px;
+  border: 5px solid rgb(95, 93, 93);
+  border-radius: 5px;
+}
+.pok1-title {
+  color: #f0f8ff;
+  font-size: 20px;
+}
+.pok1-power {
+  color: #f0f8ff;
+  font-size: 15px;
+}
+
+.pok2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(./wallpaper-pok.jpg);
+}
+.pok2-img {
+  width: 200px;
+  height: 200px;
+  border: 5px solid #5f5d5d;
+  border-radius: 5px;
+}
+.pok2-title {
+  color: #f0f8ff;
+  font-size: 20px;
+}
+.pok2-power {
+  color: #f0f8ff;
+  font-size: 15px;
+}
+
+.aboutyou {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #f0f8ff;
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.simpson {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(./wallpaper-pok.jpg);
+}
+.simpson-name {
+  color: #f0f8ff;
+}
+.simpson-say {
+  color: #f0f8ff;
+  font-size: 20px;
+}/*# sourceMappingURL=style.css.map */
